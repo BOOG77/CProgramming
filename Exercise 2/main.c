@@ -31,7 +31,7 @@ int main(){
         // Use printf to format and display the results:
 
             // The radius of the circle with 2 decimal places
-                printf("The radius of the circle: %f.2", radius);
+                printf("The radius of the circle: %.2f", radius);
 
             // The floating-point circumference with 3 decimal places
                 printf("Floating-point circumference: %f", (float)circumference);
