@@ -10,6 +10,7 @@ int main(){
                 float a = 10.0, b = 10.0;
               
             // Calculate the sum, difference, multiplication, and division of these numbers.
+                printf("=================Floating-Point Values=================\n");
                 printf("Our two float values are A: %f, and B: %f\n", a, b);
 
                 float sumResult = a + b;
@@ -24,23 +25,28 @@ int main(){
                 float divisionResult = a / b;
                 printf("Division: %.2f\n", divisionResult);
 
+                printf("=======================================================\n\n");
         // Arithmetic Operators:
 
             // Use the modulus operator to find the remainder of a division involving two integers
                 int c = 10, d = 5;
-                float intModulusResult = c / b;
+                float intModulusResult = c % d;
+                printf("=================Arithmetic Operators=================\n");
                 printf("Our two int values are C: %d, D: %d\n", c, d);
                 printf("Modulus: %f\n", intModulusResult);
-        
+                printf("======================================================\n\n");
         // Character Data Type (char):
 
             // Declare a char variable and assign it a letter (e.g., 'A')
                 char e = 'e';
+                printf("=================Character Data Type (char)=================\n");
                 printf("Char: %c ASCII: %d\n", e, e);
+                printf("============================================================\n\n");
 
         // Input and Output with printf() and scanf()
 
             // Prompt the user to input an integer and a float
+                printf("=================Input and Output with printf() and scanf()=================\n");
                 printf("Input an integer\n");
                 int userInteger;
                 scanf("%d", &userInteger);
@@ -50,8 +56,10 @@ int main(){
                 scanf("%f", &userFloat);
 
                 printf("Thank you for your submission: %d, %.2f\n", userInteger, userFloat);
+                printf("============================================================================\n\n");
 
         // Increment/Decrement Operations
+            printf("=================Increment/Decrement Operations=================\n");
 
             // Declare an integer variable and demonstrate the use of pre and post-increment operators
                 
@@ -67,8 +75,11 @@ int main(){
                 
                 // Showing that the number incremented
                     printf("Increment integer: %d\n", incrementInt);
+            
+            printf("=================Increment/Decrement Operations=================\n\n");
         
         // Logical Operators
+            printf("=================Logical Operators=================\n");
 
             // Write a program that checks if a number entered by the user is both positive and even
             
@@ -79,10 +90,13 @@ int main(){
             
                 // Checking if the number is positive and even
                     if(userInteger2 > 0 && userInteger2 % 2 == 0){
-                        printf("Your number is positive, and even!");
+                        printf("Your number is positive and even!\n");
                     }
                     else{
-                        printf("Your number isn't positive and even.");
+                        printf("Your number isn't positive and even.\n");
                     }
+            
+            printf("===================================================\n\n");
+    return 0;
 
 }
